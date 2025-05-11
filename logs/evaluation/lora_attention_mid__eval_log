@@ -1,0 +1,130 @@
+1922
+Accuracy on valid predictions: 0.68
+
+Classification Report:
+              precision    recall  f1-score   support
+
+ hate speech       0.77      0.73      0.75       593
+      normal       0.76      0.72      0.74       781
+   offensive       0.51      0.57      0.53       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.68      1922
+   macro avg       0.51      0.51      0.51      1922
+weighted avg       0.69      0.68      0.69      1922
+
+
+Number of failed predictions: 612
+
+Displaying first 5 failed predictions:
+
+Example 5:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+<user> <user> you all only caring about their hair if these kids were white it would be different latinos love playing both sides they your homeboy until u say mi amigo or deportation then u a porch monkey i could never
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+<user> <user> you all only caring about their hair if these kids were white it would be different latinos love playing both sides they your homeboy until u say mi amigo or deportation then u a porch monkey i could never
+
+### Classification:
+ hate speech 
+
+###
+True Label: normal
+Predicted Label: hate speech
+
+Example 6:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+<user> number of people being born under the poverty line all time high too but i guess let push for some retarded pseudo feminism
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+<user> number of people being born under the poverty line all time high too but i guess let push for some retarded pseudo feminism
+
+### Classification:
+ offensive 
+
+###
+True Label: normal
+Predicted Label: offensive
+
+Example 7:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+you bitches are retarded learn your self worth stop trying to come for the female and correct your wack ass man
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+you bitches are retarded learn your self worth stop trying to come for the female and correct your wack ass man
+
+### Classification:
+ offensive 
+
+###
+True Label: normal
+Predicted Label: offensive
+
+Example 15:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+there are <number> million black kids in the us living in poverty and democrats still choose illegal immigrants first
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+there are <number> million black kids in the us living in poverty and democrats still choose illegal immigrants first
+
+### Classification:
+ offensive 
+
+###
+True Label: normal
+Predicted Label: offensive
+
+Example 21:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+new to nsfw twitter • <number> • us • soft hard dom • single • lesbian • she her lt <number> rt for mutual
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+new to nsfw twitter • <number> • us • soft hard dom • single • lesbian • she her lt <number> rt for mutual
+
+### Classification:
+ normal 
+
+###
+True Label: offensive
+Predicted Label: normal
+

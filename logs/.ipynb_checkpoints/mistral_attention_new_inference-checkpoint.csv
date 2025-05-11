@@ -1,0 +1,41 @@
+Index,Sentence,New_Tokens,True_Label,Predicted_Label,True_Targets,Predicted_Targets,True_Words,Predicted_Words
+0,me getting books from the library about queer cowboys and homoeroticism in cinema instead of anything useful for my thesis,"### Classification:
+ hate speech 
+
+### Target Communities:
+ Homosexual 
+
+### Explanation:
+ this sentence is hate speech because it uses discriminatory, prejorative, and violent language against Homosexual through words 'queer cowboys and homoeroticism in cinema'.",1,0,['None'],['Homosexual'],[],['queer cowboys and homoeroticism in cinema']
+1,y si fuera top <number> me faltarían how to get away with murder gossip girl the last ship orphan black downton abbey,"### Classification:
+ hate speech 
+
+### Target Communities:
+ Women 
+
+### Explanation:
+ this sentence is hate speech because it uses discriminatory, prejorative, and violent language against Women through words 'top <number> me faltarían how to get away with murder gossip girl the last ship orphan black downton abbey'.",1,0,['None'],['Women'],[],['top <number> me faltarían how to get away with murder gossip girl the last ship orphan black downton abbey']
+2,<user> <user> <user> i am a lesbian not queer and quite frankly his disco tits video was repulsive if he thinks being an overweight gay bloke brings out the woman in him then i am offended it pathetic attention seeking,"### Classification:
+ hate speech 
+
+### Target Communities:
+ Homosexual 
+
+### Explanation:
+ this sentence is hate speech because it uses discriminatory, prejorative, and violent language against Homosexual through words 'lesbian not queer' and 'overweight gay bloke'.",1,0,['None'],['Homosexual'],[],"['lesbian not queer', 'overweight gay bloke']"
+3,<user> by tweeting about a civil war trump is sending a message to all his gun toting proud boy nazi white supremacist right wing nutjobs to crawl out of the shadows rebel desperate trump will do dangerous things,"### Classification:
+ hate speech 
+
+### Target Communities:
+ White 
+
+### Explanation:
+ this sentence is hate speech because it uses discriminatory, prejorative, and violent language against White through words 'gun toting proud boy nazi white supremacist right wing nutjobs'.",1,0,['None'],['White'],[],['gun toting proud boy nazi white supremacist right wing nutjobs']
+4,<user> <user> you all only caring about their hair if these kids were white it would be different latinos love playing both sides they your homeboy until u say mi amigo or deportation then u a porch monkey i could never,"### Classification:
+ hate speech 
+
+### Target Communities:
+ African, Latino 
+
+### Explanation:
+ this sentence is hate speech because it uses discriminatory, prejorative, and violent language against African and Latino through words 'your homeboy until u say mi amigo or deportation then u a porch monkey'.",1,0,['None'],"['African', 'Latino']",[],['your homeboy until u say mi amigo or deportation then u a porch monkey']

@@ -1,0 +1,15 @@
+Model Name,Classification Report,Target Average Precision,Target Average Recall,Target Overall Precision,Target Overall Recall,Target F1 Score,Target Per Label Precision,Target Per Label F1,Target Macro Precision,Target Macro Recall,Target Macro F1 Score,Word Average Precision,Word Average Recall,Word Overall Precision,Word Overall Recall,Word F1 Score
+pretrained Mistral,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.00      0.00      0.00       0.0
+      normal       0.00      0.00      0.00       5.0
+   offensive       0.00      0.00      0.00       0.0
+   undecided       0.00      0.00      0.00       0.0
+
+    accuracy                           0.00       5.0
+   macro avg       0.00      0.00      0.00       5.0
+weighted avg       0.00      0.00      0.00       5.0
+",0.0,0.0,0.0,0.0,0,"{'african': 0.0, 'arab': 0, 'asian': 0, 'caucasian': 0, 'christian': 0, 'hispanic': 0, 'buddhism': 0, 'hindu': 0, 'islam': 0, 'jewish': 0, 'men': 0, 'women': 0, 'heterosexual': 0, 'homosexual': 0, 'indigenous': 0, 'refugee': 0, 'immigrant': 0, 'disability': 0, 'none': 0}","{'african': 0, 'arab': 0, 'asian': 0, 'caucasian': 0, 'christian': 0, 'hispanic': 0, 'buddhism': 0, 'hindu': 0, 'islam': 0, 'jewish': 0, 'men': 0, 'women': 0, 'heterosexual': 0, 'homosexual': 0, 'indigenous': 0, 'refugee': 0, 'immigrant': 0, 'disability': 0, 'none': 0.0}","{'african': 0, 'arab': 0, 'asian': 0, 'caucasian': 0, 'christian': 0, 'hispanic': 0, 'buddhism': 0, 'hindu': 0, 'islam': 0, 'jewish': 0, 'men': 0, 'women': 0, 'heterosexual': 0, 'homosexual': 0, 'indigenous': 0, 'refugee': 0, 'immigrant': 0, 'disability': 0, 'none': 0}",0.0,0.0,0.0,0.0,0.0,0,0,0

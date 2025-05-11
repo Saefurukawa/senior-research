@@ -1,0 +1,20 @@
+2.4.1+cu118
+11.8
+New pad_token_id: 1
+1922
+Accuracy on valid predictions: 0.44
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.38      0.97      0.55       580
+      normal       0.69      0.34      0.46       736
+   offensive       0.00      0.00      0.00       529
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.44      1845
+   macro avg       0.27      0.33      0.25      1845
+weighted avg       0.40      0.44      0.35      1845
+
+{'average_precision': 0.10453520638224073, 'average_recall': 0.10466527922303158, 'overall_precision': 0.08807416772018542, 'overall_recall': 0.10101498308361527, 'f1_score': 0.09410175596578119, 'per_label_precision': {'african': 1.0, 'arab': 0.0, 'asian': 0.25, 'caucasian': 0, 'christian': 0.0, 'hispanic': 0.8333333333333334, 'buddhism': 0, 'hindu': 0.0, 'islam': 0.5, 'jewish': 0.5714285714285714, 'men': 0.0, 'women': 0.48214285714285715, 'heterosexual': 0, 'homosexual': 0, 'indigenous': 0, 'refugee': 1.0, 'immigrant': 0, 'disability': 0, 'none': 0.6150442477876106}, 'per_label_recall': {'african': 0.00967741935483871, 'arab': 0.0, 'asian': 0.058823529411764705, 'caucasian': 0.0, 'christian': 0.0, 'hispanic': 0.14285714285714285, 'buddhism': 0, 'hindu': 0, 'islam': 0.004901960784313725, 'jewish': 0.021505376344086023, 'men': 0.0, 'women': 0.3576158940397351, 'heterosexual': 0, 'homosexual': 0.0, 'indigenous': 0, 'refugee': 0.012987012987012988, 'immigrant': 0, 'disability': 0.0, 'none': 0.20808383233532934}, 'per_label_f1': {'african': 0.019169329073482427, 'arab': 0, 'asian': 0.09523809523809523, 'caucasian': 0, 'christian': 0, 'hispanic': 0.2439024390243902, 'buddhism': 0, 'hindu': 0, 'islam': 0.00970873786407767, 'jewish': 0.04145077720207254, 'men': 0, 'women': 0.41064638783269963, 'heterosexual': 0, 'homosexual': 0, 'indigenous': 0, 'refugee': 0.025641025641025647, 'immigrant': 0, 'disability': 0, 'none': 0.31096196868008946}, 'macro_precision': 0.2764183689311775, 'macro_recall': 0.04297116674285387, 'macro_f1_score': 0.06087993476610173}

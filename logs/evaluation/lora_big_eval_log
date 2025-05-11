@@ -1,0 +1,130 @@
+1922
+Accuracy on valid predictions: 0.52
+
+Classification Report:
+              precision    recall  f1-score   support
+
+ hate speech       0.46      0.76      0.57       537
+      normal       0.59      0.72      0.65       774
+   offensive       0.00      0.00      0.00       529
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.52      1840
+   macro avg       0.26      0.37      0.30      1840
+weighted avg       0.38      0.52      0.44      1840
+
+
+Number of failed predictions: 958
+
+Displaying first 5 failed predictions:
+
+Example 7:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+you bitches are retarded learn your self worth stop trying to come for the female and correct your wack ass man
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+you bitches are retarded learn your self worth stop trying to come for the female and correct your wack ass man
+
+### Classification:
+Hate Speech
+
+###
+True Label: normal
+Predicted Label: hate speech
+
+Example 9:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+queer eye but it straight people making over gays and it conversion therapy
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+queer eye but it straight people making over gays and it conversion therapy
+
+### Classification:
+Hate Speech
+
+###
+True Label: normal
+Predicted Label: hate speech
+
+Example 13:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+friendly reminder that sleeping in the same room as someone is not an invitation to be raped
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+friendly reminder that sleeping in the same room as someone is not an invitation to be raped
+
+### Classification:
+Hate Speech
+
+###
+True Label: normal
+Predicted Label: hate speech
+
+Example 15:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+there are <number> million black kids in the us living in poverty and democrats still choose illegal immigrants first
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+there are <number> million black kids in the us living in poverty and democrats still choose illegal immigrants first
+
+### Classification:
+hate_speech
+
+###
+True Label: normal
+Predicted Label: Parsing Failed
+
+Example 21:
+Prompt:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+new to nsfw twitter • <number> • us • soft hard dom • single • lesbian • she her lt <number> rt for mutual
+
+### Classification:
+
+Generated Prediction:
+Classify whether the sentence is hate speech, offensive, or normal.
+
+### Sentence:
+new to nsfw twitter • <number> • us • soft hard dom • single • lesbian • she her lt <number> rt for mutual
+
+### Classification:
+normal
+
+###
+True Label: offensive
+Predicted Label: normal
+

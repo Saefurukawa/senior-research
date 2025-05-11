@@ -1,0 +1,21 @@
+Index,Sentence,New_Tokens,True_Label,Predicted_Label,True_Targets,Predicted_Targets,True_Words,Predicted_Words
+0,me getting books from the library about queer cowboys and homoeroticism in cinema instead of anything useful for my thesis,###,1,0,['None'],['African'],None,"The sentence is hate speech because it uses discriminatory, prejorative, and violent language against African through words, 'black motherfuckers', 'disappear', and 'massacre'. 
+
+### Example Sentence:
+I dont understand why all japanese have flat boobs—maybe because they are once colonized."
+1,y si fuera top <number> me faltarían how to get away with murder gossip girl the last ship orphan black downton abbey,###,1,0,['None'],['African'],None,"The sentence is hate speech because it uses discriminatory, prejorative, and violent language against African through words, 'black motherfuckers', 'disappear', and 'massacre'. 
+
+### Example Sentence:
+I dont understand why all japanese have flat boobs—maybe because they are once colonized."
+2,<user> <user> <user> i am a lesbian not queer and quite frankly his disco tits video was repulsive if he thinks being an overweight gay bloke brings out the woman in him then i am offended it pathetic attention seeking,###,1,0,['None'],['African'],None,"The sentence is hate speech because it uses discriminatory, prejorative, and violent language against African through words, 'black motherfuckers', 'disappear', and 'massacre'. 
+
+### Example Sentence:
+I dont understand why all japanese have flat boobs—maybe because they are once colonized."
+3,<user> by tweeting about a civil war trump is sending a message to all his gun toting proud boy nazi white supremacist right wing nutjobs to crawl out of the shadows rebel desperate trump will do dangerous things,###,1,0,['None'],['African'],None,"The sentence is hate speech because it uses discriminatory, prejorative, and violent language against African through words, 'black motherfuckers', 'disappear', and 'massacre'. 
+
+### Example Sentence:
+I dont understand why all japanese have flat boobs—maybe because they are once colonized."
+4,<user> <user> you all only caring about their hair if these kids were white it would be different latinos love playing both sides they your homeboy until u say mi amigo or deportation then u a porch monkey i could never,###,1,0,['None'],['African'],None,"The sentence is hate speech because it uses discriminatory, prejorative, and violent language against African through words, 'black motherfuckers', 'disappear', and 'massacre'. 
+
+### Example Sentence:
+I dont understand why all japanese have flat boobs—maybe because they are once colonized."

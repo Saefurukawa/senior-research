@@ -1,0 +1,141 @@
+Checkpoint Path,Classification Report,Average Precision,Average Recall,Overall Precision,Overall Recall,F1 Score,Per Label Precision,Per Label Recall,Per Label F1,Macro Precision,Macro Recall,Macro F1 Score
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-19,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.52      0.92      0.66       593
+      normal       0.83      0.39      0.53       781
+   offensive       0.45      0.40      0.42       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.56      1922
+   macro avg       0.45      0.43      0.40      1922
+weighted avg       0.62      0.56      0.54      1922
+",0.6667533818938606,0.6348768643773846,0.6689621249385145,0.6573223779603673,0.6630911750365674,"{'african': 0.6994949494949495, 'arab': 0.7088607594936709, 'asian': 0.5714285714285714, 'caucasian': 0.3584905660377358, 'christian': 0, 'hispanic': 0.5869565217391305, 'buddhism': 0, 'hindu': 0.0, 'islam': 0.7729468599033816, 'jewish': 0.7877358490566038, 'men': 0, 'women': 0.49390243902439024, 'heterosexual': 0, 'homosexual': 0.65234375, 'indigenous': 0, 'refugee': 0.5523809523809524, 'immigrant': 0, 'disability': 0, 'none': 0.7427184466019418}","{'african': 0.8935483870967742, 'arab': 0.7272727272727273, 'asian': 0.8235294117647058, 'caucasian': 0.3958333333333333, 'christian': 0.0, 'hispanic': 0.7714285714285715, 'buddhism': 0, 'hindu': 0, 'islam': 0.7843137254901961, 'jewish': 0.8978494623655914, 'men': 0.0, 'women': 0.5364238410596026, 'heterosexual': 0, 'homosexual': 0.9175824175824175, 'indigenous': 0, 'refugee': 0.7532467532467533, 'immigrant': 0, 'disability': 0.0, 'none': 0.45808383233532934}","{'african': 0.7847025495750709, 'arab': 0.717948717948718, 'asian': 0.6746987951807228, 'caucasian': 0.37623762376237624, 'christian': 0, 'hispanic': 0.6666666666666667, 'buddhism': 0, 'hindu': 0, 'islam': 0.778588807785888, 'jewish': 0.8391959798994975, 'men': 0, 'women': 0.5142857142857141, 'heterosexual': 0, 'homosexual': 0.7625570776255709, 'indigenous': 0, 'refugee': 0.6373626373626373, 'immigrant': 0, 'disability': 0, 'none': 0.5666666666666668}",0.36459261395585935,0.4189006559461054,0.38520585456629103
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-29,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.83      0.70      0.76       593
+      normal       0.84      0.46      0.60       781
+   offensive       0.44      0.79      0.56       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.63      1922
+   macro avg       0.53      0.49      0.48      1922
+weighted avg       0.72      0.63      0.64      1922
+",0.6788935137010058,0.6493062781824487,0.6817511067388097,0.6698888351860802,0.6757679180887373,"{'african': 0.7150127226463104, 'arab': 0.6973684210526315, 'asian': 0.5609756097560976, 'caucasian': 0.4358974358974359, 'christian': 0, 'hispanic': 0.6756756756756757, 'buddhism': 0, 'hindu': 0, 'islam': 0.7802197802197802, 'jewish': 0.8535353535353535, 'men': 0.0, 'women': 0.4911242603550296, 'heterosexual': 0, 'homosexual': 0.6459143968871596, 'indigenous': 0, 'refugee': 0.5779816513761468, 'immigrant': 0, 'disability': 0, 'none': 0.7377398720682303}","{'african': 0.9064516129032258, 'arab': 0.6883116883116883, 'asian': 0.6764705882352942, 'caucasian': 0.3541666666666667, 'christian': 0.0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.696078431372549, 'jewish': 0.9086021505376344, 'men': 0.0, 'women': 0.5496688741721855, 'heterosexual': 0, 'homosexual': 0.9120879120879121, 'indigenous': 0, 'refugee': 0.8181818181818182, 'immigrant': 0, 'disability': 0.0, 'none': 0.5179640718562875}","{'african': 0.7994310099573259, 'arab': 0.6928104575163399, 'asian': 0.6133333333333334, 'caucasian': 0.3908045977011494, 'christian': 0, 'hispanic': 0.6944444444444444, 'buddhism': 0, 'hindu': 0, 'islam': 0.7357512953367875, 'jewish': 0.8802083333333333, 'men': 0, 'women': 0.51875, 'heterosexual': 0, 'homosexual': 0.7562642369020501, 'indigenous': 0, 'refugee': 0.6774193548387096, 'immigrant': 0, 'disability': 0, 'none': 0.6086191732629728}",0.3774444831299922,0.40748786992689345,0.3877808545592866
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-39,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.76      0.82      0.79       593
+      normal       0.72      0.76      0.74       781
+   offensive       0.56      0.47      0.51       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.69      1922
+   macro avg       0.51      0.51      0.51      1922
+weighted avg       0.69      0.69      0.69      1922
+",0.7007023933402705,0.6875737079431147,0.7015857760691975,0.7056549057515709,0.7036144578313254,"{'african': 0.8238993710691824, 'arab': 0.7432432432432432, 'asian': 0.6764705882352942, 'caucasian': 0.47368421052631576, 'christian': 0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.8143712574850299, 'jewish': 0.8858695652173914, 'men': 0, 'women': 0.528169014084507, 'heterosexual': 0, 'homosexual': 0.73, 'indigenous': 0, 'refugee': 0.6082474226804123, 'immigrant': 0, 'disability': 0, 'none': 0.6293969849246231}","{'african': 0.8451612903225807, 'arab': 0.7142857142857143, 'asian': 0.6764705882352942, 'caucasian': 0.1875, 'christian': 0.0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.6666666666666666, 'jewish': 0.8763440860215054, 'men': 0.0, 'women': 0.4966887417218543, 'heterosexual': 0, 'homosexual': 0.8021978021978022, 'indigenous': 0, 'refugee': 0.7662337662337663, 'immigrant': 0, 'disability': 0.0, 'none': 0.75}","{'african': 0.8343949044585988, 'arab': 0.7284768211920529, 'asian': 0.6764705882352942, 'caucasian': 0.2686567164179105, 'christian': 0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.7331536388140161, 'jewish': 0.8810810810810812, 'men': 0, 'women': 0.5119453924914675, 'heterosexual': 0, 'homosexual': 0.7643979057591622, 'indigenous': 0, 'refugee': 0.6781609195402298, 'immigrant': 0, 'disability': 0, 'none': 0.6844262295081969}",0.4014545985132481,0.39451759841952094,0.3934447321991434
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-49,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.82      0.75      0.78       593
+      normal       0.74      0.73      0.74       781
+   offensive       0.53      0.59      0.56       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.70      1922
+   macro avg       0.52      0.52      0.52      1922
+weighted avg       0.71      0.70      0.70      1922
+",0.7059486645855012,0.6927766215747486,0.7063911580970688,0.7104881585306911,0.7084337349397591,"{'african': 0.8414239482200647, 'arab': 0.8032786885245902, 'asian': 0.5833333333333334, 'caucasian': 0.5, 'christian': 0, 'hispanic': 0.8275862068965517, 'buddhism': 0, 'hindu': 0, 'islam': 0.8121827411167513, 'jewish': 0.8716577540106952, 'men': 0, 'women': 0.55, 'heterosexual': 0, 'homosexual': 0.7924528301886793, 'indigenous': 0, 'refugee': 0.6043956043956044, 'immigrant': 0, 'disability': 0, 'none': 0.6244019138755981}","{'african': 0.8387096774193549, 'arab': 0.6363636363636364, 'asian': 0.6176470588235294, 'caucasian': 0.1875, 'christian': 0.0, 'hispanic': 0.6857142857142857, 'buddhism': 0, 'hindu': 0, 'islam': 0.7843137254901961, 'jewish': 0.8763440860215054, 'men': 0.0, 'women': 0.5099337748344371, 'heterosexual': 0, 'homosexual': 0.6923076923076923, 'indigenous': 0, 'refugee': 0.7142857142857143, 'immigrant': 0, 'disability': 0.0, 'none': 0.781437125748503}","{'african': 0.840064620355412, 'arab': 0.7101449275362318, 'asian': 0.6, 'caucasian': 0.2727272727272727, 'christian': 0, 'hispanic': 0.75, 'buddhism': 0, 'hindu': 0, 'islam': 0.798004987531172, 'jewish': 0.8739946380697051, 'men': 0, 'women': 0.5292096219931273, 'heterosexual': 0, 'homosexual': 0.7390029325513198, 'indigenous': 0, 'refugee': 0.6547619047619048, 'immigrant': 0, 'disability': 0, 'none': 0.6941489361702127}",0.41109015897694046,0.3855029882636239,0.3927399916682294
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-59,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.79      0.79      0.79       593
+      normal       0.75      0.73      0.74       781
+   offensive       0.53      0.55      0.54       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.70      1922
+   macro avg       0.52      0.52      0.52      1922
+weighted avg       0.70      0.70      0.70      1922
+",0.7196496704821367,0.697684703433923,0.7204301075268817,0.7124214596423393,0.7164034021871203,"{'african': 0.817629179331307, 'arab': 0.78125, 'asian': 0.6666666666666666, 'caucasian': 0.5, 'christian': 0, 'hispanic': 0.7419354838709677, 'buddhism': 0, 'hindu': 0, 'islam': 0.8031088082901554, 'jewish': 0.8770053475935828, 'men': 0, 'women': 0.5867768595041323, 'heterosexual': 0, 'homosexual': 0.7928994082840237, 'indigenous': 0, 'refugee': 0.6506024096385542, 'immigrant': 0, 'disability': 0, 'none': 0.6510745891276865}","{'african': 0.867741935483871, 'arab': 0.6493506493506493, 'asian': 0.5882352941176471, 'caucasian': 0.2916666666666667, 'christian': 0.0, 'hispanic': 0.6571428571428571, 'buddhism': 0, 'hindu': 0, 'islam': 0.7598039215686274, 'jewish': 0.8817204301075269, 'men': 0.0, 'women': 0.47019867549668876, 'heterosexual': 0, 'homosexual': 0.7362637362637363, 'indigenous': 0, 'refugee': 0.7012987012987013, 'immigrant': 0, 'disability': 0.0, 'none': 0.7709580838323353}","{'african': 0.8419405320813772, 'arab': 0.7092198581560283, 'asian': 0.625, 'caucasian': 0.3684210526315789, 'christian': 0, 'hispanic': 0.6969696969696969, 'buddhism': 0, 'hindu': 0, 'islam': 0.7808564231738034, 'jewish': 0.8793565683646112, 'men': 0, 'women': 0.5220588235294118, 'heterosexual': 0, 'homosexual': 0.7635327635327636, 'indigenous': 0, 'refugee': 0.6749999999999999, 'immigrant': 0, 'disability': 0, 'none': 0.7059629883481837}",0.41415519748984614,0.3881253132278582,0.3983325635151292
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-69,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.81      0.75      0.78       593
+      normal       0.73      0.81      0.76       781
+   offensive       0.58      0.53      0.55       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.71      1922
+   macro avg       0.53      0.52      0.52      1922
+weighted avg       0.71      0.71      0.71      1922
+",0.708593479014915,0.6911810613943807,0.7113702623906706,0.707588206863219,0.7094741943300219,"{'african': 0.8491803278688524, 'arab': 0.7910447761194029, 'asian': 0.6666666666666666, 'caucasian': 0.5909090909090909, 'christian': 0, 'hispanic': 0.7096774193548387, 'buddhism': 0, 'hindu': 0, 'islam': 0.8285714285714286, 'jewish': 0.8858695652173914, 'men': 0, 'women': 0.5945945945945946, 'heterosexual': 0, 'homosexual': 0.75, 'indigenous': 0, 'refugee': 0.6436781609195402, 'immigrant': 0, 'disability': 0, 'none': 0.6220657276995305}","{'african': 0.8354838709677419, 'arab': 0.6883116883116883, 'asian': 0.5882352941176471, 'caucasian': 0.2708333333333333, 'christian': 0.0, 'hispanic': 0.6285714285714286, 'buddhism': 0, 'hindu': 0, 'islam': 0.7107843137254902, 'jewish': 0.8763440860215054, 'men': 0.0, 'women': 0.4370860927152318, 'heterosexual': 0, 'homosexual': 0.7252747252747253, 'indigenous': 0, 'refugee': 0.7272727272727273, 'immigrant': 0, 'disability': 0.0, 'none': 0.7934131736526946}","{'african': 0.8422764227642277, 'arab': 0.7361111111111112, 'asian': 0.625, 'caucasian': 0.3714285714285714, 'christian': 0, 'hispanic': 0.6666666666666666, 'buddhism': 0, 'hindu': 0, 'islam': 0.7651715039577837, 'jewish': 0.8810810810810812, 'men': 0, 'women': 0.5038167938931297, 'heterosexual': 0, 'homosexual': 0.7374301675977653, 'indigenous': 0, 'refugee': 0.6829268292682927, 'immigrant': 0, 'disability': 0, 'none': 0.6973684210526315}",0.4174872504169124,0.3832426702086429,0.39522513520111896
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-79,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.80      0.77      0.79       593
+      normal       0.74      0.78      0.76       781
+   offensive       0.57      0.53      0.55       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.71      1922
+   macro avg       0.53      0.52      0.52      1922
+weighted avg       0.71      0.71      0.71      1922
+",0.7142299687825181,0.6969909816163719,0.7150459603289792,0.7143547607539874,0.7147001934235976,"{'african': 0.8387096774193549, 'arab': 0.7941176470588235, 'asian': 0.625, 'caucasian': 0.5652173913043478, 'christian': 0, 'hispanic': 0.7272727272727273, 'buddhism': 0, 'hindu': 0, 'islam': 0.81, 'jewish': 0.8817204301075269, 'men': 0, 'women': 0.5833333333333334, 'heterosexual': 0, 'homosexual': 0.7687861271676301, 'indigenous': 0, 'refugee': 0.654320987654321, 'immigrant': 0, 'disability': 0, 'none': 0.6396063960639606}","{'african': 0.8387096774193549, 'arab': 0.7012987012987013, 'asian': 0.5882352941176471, 'caucasian': 0.2708333333333333, 'christian': 0.0, 'hispanic': 0.6857142857142857, 'buddhism': 0, 'hindu': 0, 'islam': 0.7941176470588235, 'jewish': 0.8817204301075269, 'men': 0.0, 'women': 0.46357615894039733, 'heterosexual': 0, 'homosexual': 0.7307692307692307, 'indigenous': 0, 'refugee': 0.6883116883116883, 'immigrant': 0, 'disability': 0.0, 'none': 0.7784431137724551}","{'african': 0.8387096774193549, 'arab': 0.7448275862068966, 'asian': 0.6060606060606061, 'caucasian': 0.3661971830985915, 'christian': 0, 'hispanic': 0.7058823529411764, 'buddhism': 0, 'hindu': 0, 'islam': 0.801980198019802, 'jewish': 0.8817204301075269, 'men': 0, 'women': 0.5166051660516605, 'heterosexual': 0, 'homosexual': 0.7492957746478873, 'indigenous': 0, 'refugee': 0.6708860759493671, 'immigrant': 0, 'disability': 0, 'none': 0.7022282241728562}",0.4151623535464224,0.3906173453075497,0.39917859340398554
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-89,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.78      0.79      0.78       593
+      normal       0.73      0.79      0.76       781
+   offensive       0.57      0.51      0.54       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.71      1922
+   macro avg       0.52      0.52      0.52      1922
+weighted avg       0.70      0.71      0.70      1922
+",0.7131026708289976,0.698465140478668,0.7138047138047138,0.7172547124214597,0.7155255544840887,"{'african': 0.8381877022653722, 'arab': 0.7941176470588235, 'asian': 0.625, 'caucasian': 0.56, 'christian': 0, 'hispanic': 0.7352941176470589, 'buddhism': 0, 'hindu': 0, 'islam': 0.8090452261306532, 'jewish': 0.8776595744680851, 'men': 0, 'women': 0.5819672131147541, 'heterosexual': 0, 'homosexual': 0.7584269662921348, 'indigenous': 0, 'refugee': 0.6626506024096386, 'immigrant': 0, 'disability': 0, 'none': 0.6396063960639606}","{'african': 0.8354838709677419, 'arab': 0.7012987012987013, 'asian': 0.5882352941176471, 'caucasian': 0.2916666666666667, 'christian': 0.0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.7892156862745098, 'jewish': 0.8870967741935484, 'men': 0.0, 'women': 0.47019867549668876, 'heterosexual': 0, 'homosexual': 0.7417582417582418, 'indigenous': 0, 'refugee': 0.7142857142857143, 'immigrant': 0, 'disability': 0.0, 'none': 0.7784431137724551}","{'african': 0.8368336025848142, 'arab': 0.7448275862068966, 'asian': 0.6060606060606061, 'caucasian': 0.3835616438356164, 'christian': 0, 'hispanic': 0.7246376811594202, 'buddhism': 0, 'hindu': 0, 'islam': 0.7990074441687345, 'jewish': 0.8823529411764706, 'men': 0, 'women': 0.5201465201465201, 'heterosexual': 0, 'homosexual': 0.7499999999999999, 'indigenous': 0, 'refugee': 0.6875000000000001, 'immigrant': 0, 'disability': 0, 'none': 0.7022282241728562}",0.4148397602868675,0.39536676069040155,0.4019555920795755
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-9,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.00      0.00      0.00       593
+      normal       0.43      0.97      0.60       781
+   offensive       0.23      0.08      0.12       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.41      1922
+   macro avg       0.17      0.26      0.18      1922
+weighted avg       0.24      0.41      0.28      1922
+",0.4053069719042664,0.4006243496357961,0.4053069719042664,0.3765103914934751,0.39037835129040344,"{'african': 0.864406779661017, 'arab': 1.0, 'asian': 0, 'caucasian': 0, 'christian': 0, 'hispanic': 0, 'buddhism': 0, 'hindu': 0, 'islam': 0.9047619047619048, 'jewish': 0.9655172413793104, 'men': 0, 'women': 0.5, 'heterosexual': 0, 'homosexual': 0.8076923076923077, 'indigenous': 0, 'refugee': 1.0, 'immigrant': 0, 'disability': 0, 'none': 0.36777091521617067}","{'african': 0.16451612903225807, 'arab': 0.012987012987012988, 'asian': 0.0, 'caucasian': 0.0, 'christian': 0.0, 'hispanic': 0.0, 'buddhism': 0, 'hindu': 0, 'islam': 0.09313725490196079, 'jewish': 0.15053763440860216, 'men': 0.0, 'women': 0.006622516556291391, 'heterosexual': 0, 'homosexual': 0.11538461538461539, 'indigenous': 0, 'refugee': 0.03896103896103896, 'immigrant': 0, 'disability': 0.0, 'none': 0.9805389221556886}","{'african': 0.27642276422764234, 'arab': 0.025641025641025647, 'asian': 0, 'caucasian': 0, 'christian': 0, 'hispanic': 0, 'buddhism': 0, 'hindu': 0, 'islam': 0.1688888888888889, 'jewish': 0.26046511627906976, 'men': 0, 'women': 0.0130718954248366, 'heterosexual': 0, 'homosexual': 0.20192307692307693, 'indigenous': 0, 'refugee': 0.07500000000000001, 'immigrant': 0, 'disability': 0, 'none': 0.5349122090649244}",0.33737627098477424,0.08224658549407729,0.08191184086576128
+pfl-research/benchmarks/hf_checkpoint/noise_cohort_size/pfl_noise_cohort_size_6/10000/checkpoint-99,"
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.78      0.79      0.78       593
+      normal       0.74      0.79      0.76       781
+   offensive       0.57      0.51      0.54       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.71      1922
+   macro avg       0.52      0.52      0.52      1922
+weighted avg       0.70      0.71      0.70      1922
+",0.7154439819632327,0.6997658688865765,0.7170449058425882,0.7177380376993717,0.7173913043478262,"{'african': 0.8387096774193549, 'arab': 0.7941176470588235, 'asian': 0.625, 'caucasian': 0.5769230769230769, 'christian': 0, 'hispanic': 0.7575757575757576, 'buddhism': 0, 'hindu': 0, 'islam': 0.8163265306122449, 'jewish': 0.8829787234042553, 'men': 0, 'women': 0.5772357723577236, 'heterosexual': 0, 'homosexual': 0.7627118644067796, 'indigenous': 0, 'refugee': 0.654320987654321, 'immigrant': 0, 'disability': 0, 'none': 0.6435643564356436}","{'african': 0.8387096774193549, 'arab': 0.7012987012987013, 'asian': 0.5882352941176471, 'caucasian': 0.3125, 'christian': 0.0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.7843137254901961, 'jewish': 0.8924731182795699, 'men': 0.0, 'women': 0.47019867549668876, 'heterosexual': 0, 'homosexual': 0.7417582417582418, 'indigenous': 0, 'refugee': 0.6883116883116883, 'immigrant': 0, 'disability': 0.0, 'none': 0.7784431137724551}","{'african': 0.8387096774193549, 'arab': 0.7448275862068966, 'asian': 0.6060606060606061, 'caucasian': 0.4054054054054054, 'christian': 0, 'hispanic': 0.7352941176470589, 'buddhism': 0, 'hindu': 0, 'islam': 0.8, 'jewish': 0.8877005347593583, 'men': 0, 'women': 0.5182481751824818, 'heterosexual': 0, 'homosexual': 0.7520891364902507, 'indigenous': 0, 'refugee': 0.6708860759493671, 'immigrant': 0, 'disability': 0, 'none': 0.7046070460704607}",0.41734023125515685,0.39529094474896087,0.4033593874311179

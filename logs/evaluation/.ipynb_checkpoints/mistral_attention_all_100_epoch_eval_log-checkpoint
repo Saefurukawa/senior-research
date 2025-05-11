@@ -1,0 +1,18 @@
+1922
+{'post_tokens': ['me', 'getting', 'books', 'from', 'the', 'library', 'about', 'queer', 'cowboys', 'and', 'homoeroticism', 'in', 'cinema', 'instead', 'of', 'anything', 'useful', 'for', 'my', 'thesis'], 'label': 1, 'target': ['None']}
+Accuracy on valid predictions: 0.69
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+ hate speech       0.77      0.76      0.76       593
+      normal       0.73      0.76      0.74       781
+   offensive       0.55      0.54      0.55       548
+   undecided       0.00      0.00      0.00         0
+
+    accuracy                           0.69      1922
+   macro avg       0.51      0.51      0.51      1922
+weighted avg       0.69      0.69      0.69      1922
+
+{'average_precision': 0.6974939299340964, 'average_recall': 0.687443635102324, 'overall_precision': 0.7004716981132075, 'overall_recall': 0.7177380376993717, 'f1_score': 0.7089997612795417, 'per_label_precision': {'african': 0.8087774294670846, 'arab': 0.7, 'asian': 0.6285714285714286, 'caucasian': 0.6111111111111112, 'christian': 0.0, 'hispanic': 0.7352941176470589, 'buddhism': 0, 'hindu': 0, 'islam': 0.8125, 'jewish': 0.8673469387755102, 'men': 0.0, 'women': 0.5306122448979592, 'heterosexual': 0, 'homosexual': 0.7638190954773869, 'indigenous': 0, 'refugee': 0.6708860759493671, 'immigrant': 0, 'disability': 0.0, 'none': 0.6722689075630253}, 'per_label_recall': {'african': 0.832258064516129, 'arab': 0.7272727272727273, 'asian': 0.6470588235294118, 'caucasian': 0.22916666666666666, 'christian': 0.0, 'hispanic': 0.7142857142857143, 'buddhism': 0, 'hindu': 0, 'islam': 0.8284313725490197, 'jewish': 0.9139784946236559, 'men': 0.0, 'women': 0.5165562913907285, 'heterosexual': 0, 'homosexual': 0.8351648351648352, 'indigenous': 0, 'refugee': 0.6883116883116883, 'immigrant': 0, 'disability': 0.0, 'none': 0.718562874251497}, 'per_label_f1': {'african': 0.8203497615262321, 'arab': 0.7133757961783439, 'asian': 0.6376811594202899, 'caucasian': 0.33333333333333337, 'christian': 0, 'hispanic': 0.7246376811594202, 'buddhism': 0, 'hindu': 0, 'islam': 0.820388349514563, 'jewish': 0.8900523560209423, 'men': 0, 'women': 0.523489932885906, 'heterosexual': 0, 'homosexual': 0.7979002624671917, 'indigenous': 0, 'refugee': 0.6794871794871796, 'immigrant': 0, 'disability': 0, 'none': 0.6946454413892909}, 'macro_precision': 0.4105888078663122, 'macro_recall': 0.4026867132927407, 'macro_f1_score': 0.4018600659675101}
