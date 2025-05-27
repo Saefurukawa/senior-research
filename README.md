@@ -1,8 +1,10 @@
 ---
 license: apache-2.0
 ---
+# Differentially Private Federated Fine-Tuning of Foundation Models for Hate Speech Detection
 
-1. HateXPlain
+## Setup 
+1. HateXPlain dataset
 
 Follow the instruction at https://github.com/hate-alert/HateXplain.
 
