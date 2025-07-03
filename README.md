@@ -3,6 +3,8 @@ license: apache-2.0
 ---
 # Differentially Private Federated Fine-Tuning of Foundation Models for Hate Speech Detection
 
+## Thesis
+The thesis relevant to this repo can be found via this [link](https://drive.google.com/file/d/1WsqH3odPxhHj3ILlipmLPXn1HlRw8s97/view?usp=sharing).
 ## Setup 
 1. HateXPlain dataset
 
